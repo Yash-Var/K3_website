@@ -4,6 +4,7 @@ import 'flowbite';
 import 'flowbite-react';
 import Footer from "./Footer";
 import  A  from "./Modal";
+import HomePage from "./HomePage";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
 
      
 <A />
+<HomePage />
 <Footer />
-
 
     </>
   );
