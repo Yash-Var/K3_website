@@ -2,6 +2,7 @@
 import "./App.css";
 import "flowbite";
 import { Flowbite, DarkThemeToggle, Navbar } from "flowbite-react";
+import Image_logo from './logo_image.png'
 
 function A() {
   return (
@@ -10,7 +11,7 @@ function A() {
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src={Image_logo}
               class="h-6 mr-3 sm:h-9"
               alt="Flowbite Logo"
             />

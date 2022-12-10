@@ -1,6 +1,6 @@
 import "flowbite";
 import "flowbite-react";
-
+import logo from '../src/image.png'
 const HomePage = () => {
     return (
         <>
@@ -18,7 +18,7 @@ const HomePage = () => {
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://media-exp1.licdn.com/dms/image/C511BAQEZ0f61b8Ywjw/company-background_10000/0/1583695533698?e=1671296400&v=beta&t=W73Cfjk5BFy27AITxl_osBz1ywYLPHZfsQBK4SVywiI" />
+      <img class="object-cover object-center rounded" alt="hero" src={logo} />
     </div>
   </div>
 </section>
