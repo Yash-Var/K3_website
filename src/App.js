@@ -5,6 +5,7 @@ import 'flowbite-react';
 import Footer from "./Footer";
 import  A  from "./Modal";
 import HomePage from "./HomePage";
+import Navbar from "./Navbar";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
      
 
      
-<A />
+<Navbar />
 <HomePage />
 <Footer />
 
