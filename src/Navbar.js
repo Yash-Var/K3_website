@@ -2,20 +2,20 @@ import "flowbite";
 import "flowbite-react";
 
 import { Flowbite, DarkThemeToggle} from "flowbite-react";
-import Image_logo from './logo_image.png'
+import Image_logo from './logo1.png'
 const Navbar = () => {
   return (
     <>
       <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
-          <a href="https://flowbite.com/" class="flex items-center">
+          <a href="http://localhost:3000/" class="flex items-center">
             <img
               src={Image_logo}
               class="h-6 mr-3 sm:h-9"
-              alt="Flowbite Logo"
+              alt="Kiet Koders Korner Logo"
             />
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
+              Kiet Koders Korner
             </span>
           </a>
           <div class="flex md:order-2">
