@@ -30,7 +30,7 @@ const Hero = () => {
                 strings={[
                   "Competitive Programming ",
                  "Yash Varshney",
-                 "Kushagra varshney"
+                 "Kushagra Varshney"
                 ]}
                 typeSpeed={120}
                 backSpeed={140}
