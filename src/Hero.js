@@ -2,7 +2,7 @@ import "flowbite";
 import "flowbite-react";
 import logo from './static/image.png';
 import logo_oo from './static/logo_image.png';
-
+import Typed from "react-typed";
 const Hero = () => {
   return (
     <>
@@ -13,19 +13,27 @@ const Hero = () => {
               Kiet Koder Korner
             </h1>
             <p class="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            KIET Koders Korner == Creating Competitive Coding Culture at Campus" [K3=C5]
             </p>
-            <div class="flex justify-center">
+            <Typed
+                className="md:text-5xl sm:text-4xl text-xl font-bold pl-2 text-black dark:text-white grow"
+                strings={[
+                  "Competitive Programming ",
+                 "Yash Varshney",
+                 "Kushagra varshney"
+                ]}
+                typeSpeed={120}
+                backSpeed={140}
+                loop
+              />
+            {/* <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 Button
               </button>
               <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                 Button
               </button>
-            </div>
+            </div> */}
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <picture>
