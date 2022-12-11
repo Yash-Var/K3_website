@@ -4,7 +4,7 @@ import { Flowbite, DarkThemeToggle} from "flowbite-react";
 import {Link,Outlet} from "react-router-dom";
 import Image_logo from './static/logo_image.png';
 
-
+import Typed from "react-typed";
 const Navbar = () => {
   return (
     <>
@@ -19,6 +19,7 @@ const Navbar = () => {
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Kiet Koders Korner
             </span>
+           
           </a>
           <div class="flex md:order-2">
             <Flowbite>
