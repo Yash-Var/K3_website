@@ -4,7 +4,7 @@ import { Flowbite, DarkThemeToggle} from "flowbite-react";
 import {Link,Outlet} from "react-router-dom";
 import Image_logo from './static/logo_image.png';
 
-import Typed from "react-typed";
+
 const Navbar = () => {
   return (
     <>

@@ -1,5 +1,3 @@
-// import logo from "./logo.svg";
-
 import "flowbite";
 import "flowbite-react";
 import Contact from "../Contact";
