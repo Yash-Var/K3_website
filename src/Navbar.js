@@ -81,7 +81,7 @@ const Navbar = () => {
                   to="/about"
                 
                 >
-                  team
+                  Team
                 </Link>
               </li>
             </ul>
