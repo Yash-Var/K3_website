@@ -1,5 +1,5 @@
 // import logo from "./logo.svg";
-import "./App.css";
+
 import "flowbite";
 import { Flowbite, DarkThemeToggle, Navbar } from "flowbite-react";
 import Image_logo from './logo_image.png'
