@@ -26,7 +26,7 @@ const Hero = () => {
               3. To upscale the ranking of KIET nationally and internationally on various coding <br/>platforms.<br/>
             </p>
             <Typed
-                className="md:text-5xl sm:text-4xl text-xl font-bold pl-2 text-black dark:text-white grow"
+                className="md:text-5xl sm:text-4xl text-xl font-bold pl-2 text-red-600 dark:text-red-600 grow"
                 strings={[
                   "Competitive Programming ",
                  "Yash Varshney",
