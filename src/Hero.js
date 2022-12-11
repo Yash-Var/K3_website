@@ -1,8 +1,7 @@
 import "flowbite";
 import "flowbite-react";
-import logo from "../src/image.png";
-import logo_oo from "../src/logo_image.png";
-
+import logo from './static/image.png';
+import logo_oo from './static/logo_image.png';
 
 const Hero = () => {
   return (
