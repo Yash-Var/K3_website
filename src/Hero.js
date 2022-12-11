@@ -1,7 +1,7 @@
 import "flowbite";
 import "flowbite-react";
 import logo from './static/image.png';
-import logo_oo from './static/logo_image.png';
+import logo_oo from './static/logo1.png';
 import Typed from "react-typed";
 const Hero = () => {
   return (
