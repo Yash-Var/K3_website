@@ -4,7 +4,7 @@ import Contact from "../Contact";
 import Footer from "../Footer";
 
 
-import Navbar from "../Navbar";
+import Navbar from "../Navbar2";
 
 const Homepage = () => {
   return (

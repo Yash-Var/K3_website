@@ -32,7 +32,7 @@ const Navbar = () => {
               aria-controls="navbar-cta"
               aria-expanded="false"
             >
-              <span class="sr-only">Open main menu</span>
+              <span class="sr-only"></span>
               <svg
                 class="w-6 h-6"
                 aria-hidden="true"
