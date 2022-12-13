@@ -36,7 +36,7 @@ const Contact = () => {
   }
   return (
     <>
-      <section class="text-gray-600 body-font relative dark:text-gray-400 darbg-gray-900">
+      <section class="text-gray-600 body-font relative dark:text-gray-400 darbg-gray-900" id="contact">
         <div class="absolute inset-0 bg-gray-300 dark:bg-gray-900">
           <iframe
             class="absolute inset-0"

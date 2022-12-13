@@ -9,11 +9,12 @@ import Homepage from "./Pages/HomePage";
 import Teampage from "./Pages/TeamPage";
 import Navbar2 from "./Navbar2";
 import { useState, useEffect } from "react";
+import Switcher from "./Switcher";
 function App() {
   
   return (
-    <div className="p-12 dark:bg-gray-900">
-      
+    <div className="p-5 dark:bg-gray-900">
+     
       <Navbar2 />
       <BrowserRouter>
         <Routes>

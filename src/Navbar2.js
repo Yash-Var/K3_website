@@ -2,6 +2,7 @@ import "flowbite";
 import { Navbar, Button,DarkThemeToggle,Flowbite } from "flowbite-react";
 import DarkMode from "./DarkMode";
 import Image_logo from './static/logo1.png';
+import Switcher from "./Switcher";
 const Navbar2 = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Navbar2 = () => {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <DarkMode />
+        <Switcher />
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
