@@ -9,7 +9,7 @@ import Team from "../Team";
 const Homepage = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Team />
       <Footer />
     </>

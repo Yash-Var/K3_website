@@ -8,7 +8,7 @@ import Navbar from "../Navbar2";
 const Homepage = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Footer />
     </>
