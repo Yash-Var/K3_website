@@ -1,13 +1,14 @@
 import "flowbite";
 import { Navbar, Button,DarkThemeToggle,Flowbite } from "flowbite-react";
 import DarkMode from "./DarkMode";
-import Image_logo from './static/logo1.png';
+
+import Image_logo from './static/Untitled.png';
 import Switcher from "./Switcher";
 const Navbar2 = () => {
   return (
     <>
-      <Navbar fluid={true} rounded={true}>
-        <Navbar.Brand href="https://flowbite.com/">
+      <Navbar fluid={true} rounded={true} className="dark:bg-gray-900">
+        <Navbar.Brand href="">
           <img
              src={Image_logo}
             className="mr-3 h-6 sm:h-9"
