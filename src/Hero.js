@@ -4,7 +4,8 @@ import logo from './static/image.png';
 import logo_oo from './static/logo1.png';
 import Typed from "react-typed";
 import { useState } from "react";
-import Image_logo from './static/Untitled.png';
+import Image_logo from './static/koderscorner.png';
+
 
 const Hero = () => {
 
@@ -22,7 +23,7 @@ const Hero = () => {
       <section class="text-gray-600 body-font dark:text-gray-400 dark:bg-gray-900 " id="home">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-gray-50">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-gray-50 slide-top">
             KIET Koders Korner &lt; &gt; Creating Competitive Coding Culture at Campus" [K3=C5]
             </h1>
             <p class="mb-8 leading-relaxed">
@@ -57,13 +58,13 @@ const Hero = () => {
            {className=='light'
            ?
               <img
-                class="object-cover object-center rounded"
+                class="object-cover object-center rounded shake-slow"
                 alt="hero"
                 src={Image_logo}
               />
               :
               <img
-                class="object-cover object-center rounded"
+                class="object-cover object-center rounded shake-slow"
                 alt="hero"
                 src={logo}
               />
