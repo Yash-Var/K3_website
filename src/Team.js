@@ -69,7 +69,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="mb-24 md:mb-0">
+            <div class="mb-24 md:mb-0 rounded-lg transform transition duration-500 hover:scale-110">
               <div class="rounded-lg shadow-lg h-full block bg-gray-300">
                 <div class="flex justify-center">
                   <div
@@ -78,7 +78,7 @@ const Team = () => {
                   >
                     <img
                       src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/289000/289002.1.jpg"
-                      class="rounded-full mx-auto shadow-lg"
+                      class="rounded-lg mx-auto shadow-lg"
                       alt=""
                       style={{ width: "150px" }}
                     />
@@ -129,7 +129,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="">
+            <div class="mb-24 md:mb-0 rounded-lg transform transition duration-500 hover:scale-110">
               <div class="rounded-lg shadow-lg h-full block bg-white">
                 <div class="flex justify-center">
                   <div
@@ -138,7 +138,7 @@ const Team = () => {
                   >
                     <img
                       src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/289000/289002.1.jpg"
-                      class="rounded-full mx-auto shadow-lg"
+                      class="rounded mx-auto shadow-lg"
                       alt=""
                       style={{ width: "150px" }}
                     />
