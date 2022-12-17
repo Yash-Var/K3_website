@@ -1,8 +1,8 @@
 import "./team.css";
 const Team = () => {
   return (
-    <div  >
-      <div class="container my-24 px-6 mx-aut">
+    <div>
+      <div class="container py-6 px-6 mx-aut bg-gray-200">
         <section class="mb-32 text-gray-800 text-center ">
           <h2 class="text-3xl font-bold mb-32 ">
             Meet the <u class="text-blue-600">team</u>

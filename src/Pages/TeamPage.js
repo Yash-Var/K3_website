@@ -10,7 +10,7 @@ const Homepage = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <Team />
+      <Team  class="bg-pink-900"/>
       <Footer />
     </>
   );
