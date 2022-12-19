@@ -58,13 +58,13 @@ const Hero = () => {
            {className=='light'
            ?
               <img
-                class="object-cover object-center rounded shake-slow"
+                class="object-cover object-center rounded"
                 alt="hero"
                 src={Image_logo}
               />
               :
               <img
-                class="object-cover object-center rounded shake-slow"
+                class="object-cover object-center rounded"
                 alt="hero"
                 src={logo}
               />
