@@ -9,14 +9,6 @@ import Image_logo from './static/koderscorner.png';
 
 const Hero = () => {
 
- const [className,setClassName]=useState(localStorage.theme);
-
- const ram =()=>{
-  if(className=="light")
-  setClassName('dark')
-  else 
-  setClassName('light')
- }
 
   return (
     <>
@@ -52,7 +44,7 @@ const Hero = () => {
               />
            
           </div>
-          <button onClick={ram}>yash</button>
+       
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             
            {className=='light'
