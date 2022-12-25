@@ -11,12 +11,8 @@ import About from '../About'
 const Homepage = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
-      <Team />
-      <About />
-      <Contact/>
-      <Footer />
+     
     </>
   );
 };
