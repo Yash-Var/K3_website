@@ -1,17 +1,15 @@
 import "flowbite";
 import "flowbite-react";
-import Contact from "../Contact";
-import Footer from "../Footer";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 
-import Navbar from "../Navbar2";
+import Navbar from "../components/Navbar2";
 
 const Homepage = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <Contact />
-      <Footer />
     </>
   );
 };

@@ -1,10 +1,10 @@
 import "flowbite";
 import "flowbite-react";
-import logo from './static/image.png';
-import logo_oo from './static/logo1.png';
+
+
 import Typed from "react-typed";
 import { useState } from "react";
-import Image_logo from './static/koderscorner.png';
+import Image_logo from '../static/koderscorner.png';
 
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <>
-      <section class="text-gray-600  bg-purple-500 body-font dark:text-gray-400 dark:bg-gray-900" id="home">
+      <section class="text-gray-600  body-font dark:text-gray-400 dark:bg-gray-900" id="home">
         <div class="container mx-auto flex md:flex-row flex-col items-center h-screen">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mt-10">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-gray-50 slide-top">

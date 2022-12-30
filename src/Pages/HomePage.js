@@ -1,13 +1,9 @@
 import "flowbite";
 import "flowbite-react";
-import Contact from "../Contact";
-import Footer from "../Footer";
-import Hero from "../Hero";
 
-import Navbar from "../Navbar2";
-import Team from "../Team";
+import Hero from "../components/Hero";
 
-import About from '../About'
+
 const Homepage = () => {
   return (
     <>
