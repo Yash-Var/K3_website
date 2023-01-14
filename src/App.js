@@ -11,11 +11,9 @@ import Navbar2 from "./components/Navbar2";
 import { useState, useEffect } from "react";
 import Switcher from "./components/Switcher";
 function App() {
-  
   return (
-    <div className="p-5 dark:bg-gray-900">
-     
-      <Navbar2 />
+    <div className="dark:bg-gray-900">
+      <Navbar2 className="" />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />}></Route>

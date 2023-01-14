@@ -35,8 +35,11 @@ const Contact = () => {
       });
   }
   return (
-    <>
-      <section class="text-gray-600 body-font relative dark:text-gray-400 darbg-gray-900" id="contact">
+    <div className="p-5">
+      <section
+        class="text-gray-600 body-font relative dark:text-gray-400 darbg-gray-900"
+        id="contact"
+      >
         <div class="absolute inset-0 bg-gray-300 dark:bg-gray-900">
           <iframe
             class="absolute inset-0"
@@ -56,7 +59,7 @@ const Contact = () => {
               Contact Us
             </h2>
             <p class="leading-relaxed mb-5 text-gray-600">
-             We do Competitive Programming 🥉
+              We do Competitive Programming 🥉
             </p>
             <div class="relative mb-4">
               <label for="name" class="leading-7 text-sm text-gray-600">
@@ -105,13 +108,11 @@ const Contact = () => {
             <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
               Submit
             </button>
-            <p class="text-xs text-gray-500 mt-3">
-             @kiet_koders_korner
-            </p>
+            <p class="text-xs text-gray-500 mt-3">@kiet_koders_korner</p>
           </form>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
