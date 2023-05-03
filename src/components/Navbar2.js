@@ -6,12 +6,8 @@ import Image_logo from "../static/logo1.png";
 import Switcher from "./Switcher";
 const Navbar2 = () => {
   return (
-    <div className="p-5 bg-purple-600 ">
-      <Navbar
-        fluid={true}
-        rounded={true}
-        className="dark:bg-gray-900  bg-purple-600 "
-      >
+    <div className="p-5 ">
+      <Navbar fluid={true} rounded={true} className="dark:bg-gray-900 ">
         <Navbar.Brand href="">
           <img
             src={Image_logo}
